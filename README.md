@@ -1,7 +1,7 @@
 
 # Language Used: Java,Maven
 ## Pre-requesties 
-- Java -8
+- Java 1.8/1.11
 * Maven
 
   How to run the code

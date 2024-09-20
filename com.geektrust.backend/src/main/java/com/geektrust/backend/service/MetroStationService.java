@@ -70,13 +70,13 @@ public class MetroStationService implements IMetroStationService {
 
 		String passengerKey = "";
 
-		if (passengersType.ADULT == passengersType) {
+		if (PassengersType.ADULT == passengersType) {
 
 			passengerKey = "ADULT";
-		} else if (passengersType.KID == passengersType) {
+		} else if (PassengersType.KID == passengersType) {
 
 			passengerKey = "KID";
-		} else if (passengersType.SENIOR_CITIZEN == passengersType) {
+		} else if (PassengersType.SENIOR_CITIZEN == passengersType) {
 
 			passengerKey = "SENIOR_CITIZEN";
 		}

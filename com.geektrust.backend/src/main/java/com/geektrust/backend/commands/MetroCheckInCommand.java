@@ -40,7 +40,7 @@ public class MetroCheckInCommand implements MetroICommand{
 		}
 		//input validation for passenger and station
 		try {
-			if(!(passenger.equals("ADULTS")||passenger.equals("KID")||passenger.equals("SENIOR_CITIZEN"))) {
+			if(!(passenger.equals("ADULT")||passenger.equals("KID")||passenger.equals("SENIOR_CITIZEN"))) {
 				throw  new InvalidPassengerTypeException(passenger+" is an invalid passenger type");
 			}
 	        if(!(stationName.equals("AIRPORT")|| stationName.equals("CENTRAL"))) {

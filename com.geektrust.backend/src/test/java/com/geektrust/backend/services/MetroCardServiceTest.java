@@ -28,9 +28,9 @@ public class MetroCardServiceTest {
 	 @DisplayName("Create a new card with given Id and balance")
 	 public void testCardCreateService() {
 		 
-		 MetroCard expectedCard = new MetroCard("MC100", 5000);
+		 MetroCard expectedCard = new MetroCard("MC100", 6000);
 		 Mockito.when(iCardRepository.save(any())).thenReturn(expectedCard);
-		 MetroCard actualCard=cardService.createCard("MC100", 5000);
+		 MetroCard actualCard=cardService.createCard("MC100", 6000);
 		 Assertions.assertEquals(expectedCard.getId(), actualCard.getId());
 	 }
 

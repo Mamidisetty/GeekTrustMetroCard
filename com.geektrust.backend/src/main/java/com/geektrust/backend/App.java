@@ -39,7 +39,7 @@ public class App {
 		
 	}
 	//respective commands are invoked by command invoker
-	private static void run(List<String> inputCommands) throws CommandNotFoundException {
+	public static void run(List<String> inputCommands) throws CommandNotFoundException {
 		MetroApplicationConfig applicationConfig=new MetroApplicationConfig();
 		MetroCommandInvoker commandInvoker=applicationConfig.getCommandInvoker();
 		
